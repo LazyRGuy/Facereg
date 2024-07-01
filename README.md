@@ -1,5 +1,5 @@
 ## Real-Time Face Recognition with Flask
-This project is a real-time face recognition web application built using Flask and Python. It captures video from a webcam, performs face recognition, and displays the results on a local web page. Users can also add new faces to the system, which will be used for future recognition.
+This project is a real-time face recognition web application built using Flask and Python. It captures video from a webcam, performs face recognition, and displays the results on a local web page. Users can also add new faces to the system, which will be used for future recognition. face_recognition is reported(https://github.com/ageitgey/face_recognition) to have an accuracy of 99.38% on the [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/) dataset which I am using here.
 ## Libraries Used
 * **Flask**: A lightweight WSGI web application framework for Python.
 * **OpenCV**: A library for computer vision tasks.
