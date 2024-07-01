@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Face</title>
+</head>
+<body>
+    <h1>Add a New Face</h1>
+    <form method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <input type="submit" value="Add Face">
+    </form>
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
+
